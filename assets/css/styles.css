@@ -1,0 +1,56 @@
+body{
+    background-color:rgb(207, 201, 166);
+    overflow-x: hidden;   
+    overflow-y: hidden;  
+    background-image: url("../images/melt.jpg");
+    background-position:center, fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.border-light:nth-child(1){
+    border-color:blanchedalmond !important;
+}
+
+.profile{
+    border-radius: 70%;
+    box-shadow: 0 0 10px 5px rgb(252, 238, 221);
+}
+
+.heading{
+    color:blanchedalmond;
+}
+
+.titlecard{   
+    box-shadow: 0 0 10px 10px rgba(252, 238, 221, 0.5);
+    background-color: rgb(252, 238, 221, 0.5);
+    text-shadow: 5px 5px 10px rgb(32, 13, 13);
+
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+
+.hover:hover {
+    color:  rgb(73, 97, 24);
+}
+
+a:link, a:active, a:visited {
+    color: blanchedalmond;
+}
+
